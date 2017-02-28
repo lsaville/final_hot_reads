@@ -8,7 +8,7 @@ describe 'user visits top ten index' do
       FactoryGirl.create_list(:read, 3, url: 'boom', created_at: Date.today - 3.days )
 
       visit '/'
-save_and_open_page
+
       expect(page).to have_content('bahh')
       expect(page).to have_content('zoom')
       expect(page).to_not have_content('boom')

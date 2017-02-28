@@ -5,4 +5,6 @@ Rails.application.routes.draw do
       resources :reads, only: [:create]
     end
   end
+
+  get '/', to: 'hotreads#index'
 end

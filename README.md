@@ -8,6 +8,7 @@ Hotreads is a simple app that records reads of urls via POST to the endpoint `/a
 ### Install it
 
 Please follow these steps to deploy the app locally:<br>
+
 1. Clone the project<br>
 `git clone git@github.com:lsaville/final_hot_reads.git`<br>
 

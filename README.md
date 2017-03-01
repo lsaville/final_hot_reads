@@ -3,7 +3,7 @@
 ### What is it?
 See it in [production]( https://sheltered-springs-63378.herokuapp.com/)
 <br><br>
-Hotreads is a simple app that records reads of urls via POST to the endpoint `/api/v1/reads` The top ten reads from the past 24 hours are displayed on the main index view. Additionally Hotreads offers an API endpoint which renders those same top ten reads in json format via a GET request to /api/v1/hotreads
+Hotreads is a simple app that records reads of urls via POST to the endpoint `/api/v1/reads` The top ten reads from the past 24 hours are displayed on the main index view. Additionally Hotreads offers an API endpoint which renders those same top ten reads in json format via a GET request to `/api/v1/hotreads`.
 
 ### Install it
 
